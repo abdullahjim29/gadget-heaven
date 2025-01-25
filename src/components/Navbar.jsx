@@ -5,8 +5,8 @@ const Navbar = () => {
 const {pathname} = useLocation();
 console.log(pathname);
   return (
-    <div className="my-4">
-      <div className={`navbar ${pathname == '/' ? 'bg-[#9538E2] text-white' : 'bg-white text-black'} container mx-auto px-14 rounded-t-2xl`}>
+    <div className="mt-4">
+      <div className={`navbar ${pathname == '/' ? 'bg-[#9538E2] text-white' : 'bg-white text-black'} container mx-auto px-2 md:px-14 rounded-t-2xl`}>
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,7 @@ console.log(pathname);
               <NavLink className={({isActive}) => isActive && pathname == '/join'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/join'><li>Join</li></NavLink>
             </ul>
           </div>
-          <Link to='/' className="text-2xl font-bold">Gadget Heaven</Link>
+          <Link to='/' className="text-xl md:text-2xl font-bold">Gadget Heaven</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-9">
