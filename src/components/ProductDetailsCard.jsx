@@ -1,5 +1,6 @@
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { AiOutlineHeart } from "react-icons/ai";
+import { saveCartToLs, saveWishListToLs } from "../utilitis";
 const ProductDetailsCard = ({ selectedProduct }) => {
   const {
     product_id,
@@ -12,6 +13,14 @@ const ProductDetailsCard = ({ selectedProduct }) => {
     availability,
     rating,
   } = selectedProduct;
+
+  const handleAddToCart = product => {
+    saveCartToLs(product)
+  }
+
+  const handleWishList = product => {
+    saveWishListToLs(product)
+  }
   return (
     <div className="flex flex-col lg:flex-row gap-10 bg-base-100 justify-center p-10 my-10 md:w-10/12 lg:w-8/12 mx-auto rounded-2xl absolute inset-x-0 top-56">
       <div className="bg-gray-200 p-10 w-full lg:w-3/6 rounded-2xl flex justify-center items-center">
@@ -84,10 +93,10 @@ const ProductDetailsCard = ({ selectedProduct }) => {
             <p className="text-black bg-base-200 px-3 rounded-3xl font-bold">{rating}</p>
           </div>
         </p>
-        <button className="btn bg-[#9538E2] hover:bg-[#683a8d] rounded-full text-white">
+        <button onClick={() => handleAddToCart(product_title)} className="btn bg-[#9538E2] hover:bg-[#683a8d] rounded-full text-white">
           Add To Card <HiOutlineShoppingCart size={20} />
         </button>
-        <button className="bg-white border border-gray-500 p-2 rounded-full ml-2 cursor-pointer">
+        <button onClick={() => handleWishList(product_title)} className="bg-white border border-gray-500 p-2 rounded-full ml-2 cursor-pointer">
           <AiOutlineHeart size={25} />
         </button>
       </div>
