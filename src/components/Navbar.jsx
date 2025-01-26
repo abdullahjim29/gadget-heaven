@@ -3,7 +3,6 @@ import { HiOutlineShoppingCart } from "react-icons/hi";
 import { AiOutlineHeart } from "react-icons/ai";
 const Navbar = () => {
 const {pathname} = useLocation();
-
   return (
     <div className="mt-4">
       <div className={`navbar ${pathname == '/' ? 'bg-[#9538E2] text-white' : 'bg-white text-black'} container mx-auto px-2 md:px-14 rounded-t-2xl`}>

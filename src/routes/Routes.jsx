@@ -5,6 +5,7 @@ import Statistics from "../pages/Statistics";
 import Dashboard from "../pages/Dashboard";
 import Join from "../pages/Join";
 import Products from "../components/Products";
+import ProductDetails from "../pages/ProductDetails";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
             path: '/join',
             element: <Join/>
         },
+        {
+          path: '/products/:productId',
+          element: <ProductDetails/>,
+          loader: () => fetch('../products.json')
+        }
       ]
     },
   ]);

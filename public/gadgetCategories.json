@@ -1,27 +1,32 @@
 [
   {
     "id": 1,
-    "category": "Laptops",
-    "slug": "laptops-01"
+    "category": "All Products",
+    "slug": "all-products-01"
   },
   {
     "id": 2,
-    "category": "Phones",
-    "slug": "phones-02"
+    "category": "Laptops",
+    "slug": "laptops-02"
   },
   {
     "id": 3,
-    "category": "Smart Watches",
-    "slug": "smart-watches-03"
+    "category": "Phones",
+    "slug": "phones-03"
   },
   {
     "id": 4,
-    "category": "Chargers",
-    "slug": "chargers-04"
+    "category": "Smart Watches",
+    "slug": "smart-watches-04"
+  },
+  {
+    "id": 6,
+    "category": "Power Banks",
+    "slug": "power-banks-06"
   },
   {
     "id": 5,
-    "category": "Power Banks",
-    "slug": "power-banks-05"
+    "category": "Accessories",
+    "slug": "accessories-05"
   }
 ]

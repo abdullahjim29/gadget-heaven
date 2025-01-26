@@ -7,7 +7,7 @@ const MainLayout = () => {
         <div>
             {/* navbar */}
             <Navbar/>
-            <div className="bg-base-200"><Outlet/></div>
+            <div className="bg-base-200 pb-20 min-h-[calc(100vh-384px)]"><Outlet/></div>
             <Footer/>
         </div>
     );

@@ -2,7 +2,7 @@
   {
     "product_id": 1,
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/images/dell-xps-13.jpg",
+    "product_image": "https://i.ibb.co/NyH94M9/05dhzg0lrtq4i0d3wxqyjjakwmbmzr331426.png",
     "category": "Laptops",
     "price": 1200,
     "description": "13-inch laptop with an InfinityEdge display, high performance, and sleek design.",
@@ -18,7 +18,7 @@
   {
     "product_id": 2,
     "product_title": "MacBook Air M2",
-    "product_image": "https://example.com/images/macbook-air-m2.jpg",
+    "product_image": "https://i.ibb.co/TvGp02Y/Mac-Book-Air-M2-Midnight-8137-removebg-preview.png",
     "category": "Laptops",
     "price": 1500,
     "description": "Lightweight and powerful laptop with the Apple M2 chip for high performance.",
@@ -34,7 +34,7 @@
   {
     "product_id": 3,
     "product_title": "HP Pavilion 15",
-    "product_image": "https://example.com/images/hp-pavilion-15.jpg",
+    "product_image": "https://i.ibb.co/Xbx9FKS/c08221934.png",
     "category": "Laptops",
     "price": 850,
     "description": "Affordable and reliable laptop for work and entertainment.",
@@ -44,13 +44,13 @@
       "512GB SSD",
       "15.6-inch FHD display"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.5
   },
   {
     "product_id": 4,
     "product_title": "Lenovo ThinkPad X1 Carbon",
-    "product_image": "https://example.com/images/lenovo-thinkpad-x1-carbon.jpg",
+    "product_image": "https://i.ibb.co/1rPyYFs/notebook-xps-13-9345-t-silver-gallery-2.png",
     "category": "Laptops",
     "price": 1400,
     "description": "Business laptop with robust security features and lightweight design.",
@@ -67,7 +67,7 @@
   {
     "product_id": 5,
     "product_title": "iPhone 14 Pro",
-    "product_image": "https://example.com/images/iphone-14-pro.jpg",
+    "product_image": "https://i.ibb.co/LJhwgWx/apple-iphone-14-pro-removebg-preview.png",
     "category": "Phones",
     "price": 999,
     "description": "High-end smartphone with A16 Bionic chip and advanced camera features.",
@@ -83,7 +83,7 @@
   {
     "product_id": 6,
     "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "https://example.com/images/galaxy-s23-ultra.jpg",
+    "product_image": "https://i.ibb.co/ZzSN9LS/samsung-galaxy-s23-ultra-5g.jpg",
     "category": "Phones",
     "price": 1200,
     "description": "Flagship phone with advanced camera and high-performance features.",
@@ -99,7 +99,7 @@
   {
     "product_id": 7,
     "product_title": "Google Pixel 7",
-    "product_image": "https://example.com/images/google-pixel-7.jpg",
+    "product_image": "https://i.ibb.co/NVGdPCf/google-pixel7-new-removebg-preview.png",
     "category": "Phones",
     "price": 899,
     "description": "Pixel phone with pure Android experience and exceptional camera quality.",
@@ -115,7 +115,7 @@
   {
     "product_id": 8,
     "product_title": "OnePlus 11",
-    "product_image": "https://example.com/images/oneplus-11.jpg",
+    "product_image": "https://i.ibb.co/Jq648Zr/oneplus-11-removebg-preview.png",
     "category": "Phones",
     "price": 799,
     "description": "High-performance smartphone with Hasselblad camera and fast charging.",
@@ -125,13 +125,13 @@
       "50MP triple camera system",
       "Android 13"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.6
   },
   {
     "product_id": 9,
     "product_title": "Apple Watch Series 8",
-    "product_image": "https://example.com/images/apple-watch-series-8.jpg",
+    "product_image": "https://i.ibb.co/qnZ84Qp/apple-watch-8-removebg-preview.png",
     "category": "Smart Watches",
     "price": 399,
     "description": "Advanced health-tracking smartwatch with ECG and blood oxygen monitoring.",
@@ -147,7 +147,7 @@
   {
     "product_id": 10,
     "product_title": "Samsung Galaxy Watch 5",
-    "product_image": "https://example.com/images/galaxy-watch-5.jpg",
+    "product_image": "https://i.ibb.co/Kjbc85R/samsung-galaxy-watch5-removebg-preview.png",
     "category": "Smart Watches",
     "price": 329,
     "description": "Durable smartwatch with advanced fitness tracking and long battery life.",
@@ -163,7 +163,7 @@
   {
     "product_id": 11,
     "product_title": "Fitbit Versa 4",
-    "product_image": "https://example.com/images/fitbit-versa-4.jpg",
+    "product_image": "https://i.ibb.co/r0NgrKv/Versa-4-Pink-Sand-5973-removebg-preview.png",
     "category": "Smart Watches",
     "price": 229,
     "description": "Fitness-focused smartwatch with built-in GPS and heart rate tracking.",
@@ -173,13 +173,13 @@
       "AMOLED display",
       "6-day battery life"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.6
   },
   {
     "product_id": 12,
     "product_title": "Garmin Fenix 7",
-    "product_image": "https://example.com/images/garmin-fenix-7.jpg",
+    "product_image": "https://i.ibb.co/HYDyFJ2/74741-TN-NEW-removebg-preview.png",
     "category": "Smart Watches",
     "price": 699,
     "description": "Premium smartwatch for outdoor activities and fitness tracking.",
@@ -194,131 +194,67 @@
   },
   {
     "product_id": 13,
-    "product_title": "Anker PowerPort Atom III",
-    "product_image": "https://example.com/images/anker-atom-iii.jpg",
-    "category": "Chargers",
-    "price": 63,
-    "description": "Compact USB-C charger with fast charging capabilities.",
+    "product_title": "Apple AirPods Pro (2nd Generation)",
+    "product_image": "https://i.ibb.co/nzYzgmG/Air-Pods-Pro-2nd-generation-USB-C-a-6909-removebg-preview.png",
+    "category": "Accessories",
+    "price": 249,
+    "description": "Premium wireless earbuds with active noise cancellation and spatial audio.",
     "specification": [
-      "45W power delivery",
-      "USB-C and USB-A ports",
-      "Compact design",
-      "Universal compatibility"
+      "Active noise cancellation",
+      "Adaptive Transparency",
+      "Personalized spatial audio",
+      "MagSafe charging case"
     ],
     "availability": true,
-    "rating": 4.6
+    "rating": 4.8
   },
   {
     "product_id": 14,
-    "product_title": "Belkin BoostCharge Pro",
-    "product_image": "https://example.com/images/belkin-boostcharge.jpg",
-    "category": "Chargers",
-    "price": 50,
-    "description": "Wireless charger with MagSafe compatibility.",
+    "product_title": "Bose QuietComfort 45",
+    "product_image": "https://i.ibb.co/L0T2PNp/QC45-Triple-Black-001-RGB.png",
+    "category": "Accessories",
+    "price": 329,
+    "description": "Comfortable, high-quality noise-canceling over-ear headphones.",
     "specification": [
-      "15W fast charging",
-      "MagSafe technology",
-      "Sleek design",
-      "LED indicator"
+      "World-class noise cancellation",
+      "Comfortable over-ear design",
+      "24-hour battery life",
+      "Bluetooth 5.1 connectivity"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.7
   },
   {
     "product_id": 15,
-    "product_title": "RAVPower PD Pioneer",
-    "product_image": "https://example.com/images/ravpower-pd-pioneer.jpg",
-    "category": "Chargers",
-    "price": 59,
-    "description": "High-speed charger with dual USB-C ports and 65W power delivery.",
+    "product_title": "Logitech MX Anywhere 3",
+    "product_image": "https://i.ibb.co/8m3kVMh/mx-anywhere-3s-mouse-top-view-rose.png",
+    "category": "Accessories",
+    "price": 79,
+    "description": "Compact wireless mouse with precision tracking on any surface.",
     "specification": [
-      "65W power delivery",
-      "Dual USB-C ports",
-      "Compact design",
-      "Overheat protection"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": 16,
-    "product_title": "UGREEN Nexode 100W",
-    "product_image": "https://example.com/images/ugreen-nexode-100w.jpg",
-    "category": "Chargers",
-    "price": 99,
-    "description": "Powerful multi-port charger for Laptops, Phones, and tablets.",
-    "specification": [
-      "100W power delivery",
-      "4 ports (3 USB-C, 1 USB-A)",
-      "GaN technology",
-      "Compact size"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-
-  {
-    "product_id": 17,
-    "product_title": "Anker PowerCore 20100",
-    "product_image": "https://example.com/images/anker-powercore-20100.jpg",
-    "category": "Power Banks",
-    "price": 51,
-    "description": "High-capacity power bank with dual USB ports.",
-    "specification": [
-      "20100mAh capacity",
-      "Fast charging",
-      "Dual USB ports",
-      "Compact design"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": 18,
-    "product_title": "Xiaomi Mi Power Bank 3",
-    "product_image": "https://example.com/images/mi-power-bank-3.jpg",
-    "category": "Power Banks",
-    "price": 51,
-    "description": "Affordable power bank with USB-C and fast charging support.",
-    "specification": [
-      "20000mAh capacity",
-      "USB-C input/output",
-      "Fast charging",
-      "Slim design"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": 19,
-    "product_title": "RAVPower Portable Charger",
-    "product_image": "https://example.com/images/ravpower-portable-charger.jpg",
-    "category": "Power Banks",
-    "price": 59,
-    "description": "Compact power bank with fast charging and high capacity.",
-    "specification": [
-      "15000mAh capacity",
-      "Fast charging",
-      "Dual USB ports",
-      "Lightweight design"
+      "MagSpeed scrolling",
+      "4000 DPI precision sensor",
+      "USB-C fast charging",
+      "Compact, portable design"
     ],
     "availability": true,
     "rating": 4.6
   },
   {
-    "product_id": 20,
-    "product_title": "Zendure SuperTank",
-    "product_image": "https://example.com/images/zendure-supertank.jpg",
-    "category": "Power Banks",
-    "price": 99,
-    "description": "High-capacity power bank with 100W power delivery.",
+    "product_id": 16,
+    "product_title": "Keychron K8 Wireless Mechanical Keyboard",
+    "product_image": "https://i.ibb.co/4KDJcsb/Ha2370cd13ebb485fa475c08a184887b0b-removebg-preview.png",
+    "category": "Accessories",
+    "price": 89,
+    "description": "Mechanical keyboard with customizable RGB lighting and wireless connectivity.",
     "specification": [
-      "26800mAh capacity",
-      "100W power delivery",
-      "Multiple USB-C ports",
-      "Durable design"
+      "Gateron mechanical switches",
+      "Wireless and wired modes",
+      "Customizable RGB backlighting",
+      "Mac and Windows compatibility"
     ],
     "availability": true,
-    "rating": 4.8
+    "rating": 4.5
   }
+  
 ]     
