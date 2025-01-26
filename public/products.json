@@ -1,0 +1,324 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/images/dell-xps-13.jpg",
+    "category": "Laptops",
+    "price": 1200,
+    "description": "13-inch laptop with an InfinityEdge display, high performance, and sleek design.",
+    "specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "13.3-inch FHD+ display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/images/macbook-air-m2.jpg",
+    "category": "Laptops",
+    "price": 1500,
+    "description": "Lightweight and powerful laptop with the Apple M2 chip for high performance.",
+    "specification": [
+      "Apple M2 chip",
+      "8GB RAM",
+      "256GB SSD",
+      "13.6-inch Liquid Retina display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 3,
+    "product_title": "HP Pavilion 15",
+    "product_image": "https://example.com/images/hp-pavilion-15.jpg",
+    "category": "Laptops",
+    "price": 850,
+    "description": "Affordable and reliable laptop for work and entertainment.",
+    "specification": [
+      "AMD Ryzen 5",
+      "8GB RAM",
+      "512GB SSD",
+      "15.6-inch FHD display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 4,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://example.com/images/lenovo-thinkpad-x1-carbon.jpg",
+    "category": "Laptops",
+    "price": 1400,
+    "description": "Business laptop with robust security features and lightweight design.",
+    "specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "14-inch UHD display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+
+  {
+    "product_id": 5,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://example.com/images/iphone-14-pro.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "High-end smartphone with A16 Bionic chip and advanced camera features.",
+    "specification": [
+      "A16 Bionic chip",
+      "6.1-inch Super Retina XDR display",
+      "48MP main camera",
+      "iOS 16"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 6,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/images/galaxy-s23-ultra.jpg",
+    "category": "Phones",
+    "price": 1200,
+    "description": "Flagship phone with advanced camera and high-performance features.",
+    "specification": [
+      "Snapdragon 8 Gen 2",
+      "6.8-inch Dynamic AMOLED display",
+      "200MP camera system",
+      "Android 13"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 7,
+    "product_title": "Google Pixel 7",
+    "product_image": "https://example.com/images/google-pixel-7.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "Pixel phone with pure Android experience and exceptional camera quality.",
+    "specification": [
+      "Google Tensor G2",
+      "6.3-inch OLED display",
+      "50MP wide camera",
+      "Android 13"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 8,
+    "product_title": "OnePlus 11",
+    "product_image": "https://example.com/images/oneplus-11.jpg",
+    "category": "Phones",
+    "price": 799,
+    "description": "High-performance smartphone with Hasselblad camera and fast charging.",
+    "specification": [
+      "Snapdragon 8 Gen 2",
+      "6.7-inch AMOLED display",
+      "50MP triple camera system",
+      "Android 13"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 9,
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://example.com/images/apple-watch-series-8.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "Advanced health-tracking smartwatch with ECG and blood oxygen monitoring.",
+    "specification": [
+      "ECG app",
+      "Blood Oxygen sensor",
+      "Always-on Retina display",
+      "18-hour battery life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 10,
+    "product_title": "Samsung Galaxy Watch 5",
+    "product_image": "https://example.com/images/galaxy-watch-5.jpg",
+    "category": "Smart Watches",
+    "price": 329,
+    "description": "Durable smartwatch with advanced fitness tracking and long battery life.",
+    "specification": [
+      "Heart rate monitoring",
+      "Body composition analysis",
+      "AMOLED display",
+      "40-hour battery life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 11,
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://example.com/images/fitbit-versa-4.jpg",
+    "category": "Smart Watches",
+    "price": 229,
+    "description": "Fitness-focused smartwatch with built-in GPS and heart rate tracking.",
+    "specification": [
+      "Built-in GPS",
+      "Heart rate tracking",
+      "AMOLED display",
+      "6-day battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 12,
+    "product_title": "Garmin Fenix 7",
+    "product_image": "https://example.com/images/garmin-fenix-7.jpg",
+    "category": "Smart Watches",
+    "price": 699,
+    "description": "Premium smartwatch for outdoor activities and fitness tracking.",
+    "specification": [
+      "Multi-GNSS support",
+      "Advanced fitness metrics",
+      "Solar charging",
+      "Touchscreen display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 13,
+    "product_title": "Anker PowerPort Atom III",
+    "product_image": "https://example.com/images/anker-atom-iii.jpg",
+    "category": "Chargers",
+    "price": 63,
+    "description": "Compact USB-C charger with fast charging capabilities.",
+    "specification": [
+      "45W power delivery",
+      "USB-C and USB-A ports",
+      "Compact design",
+      "Universal compatibility"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 14,
+    "product_title": "Belkin BoostCharge Pro",
+    "product_image": "https://example.com/images/belkin-boostcharge.jpg",
+    "category": "Chargers",
+    "price": 50,
+    "description": "Wireless charger with MagSafe compatibility.",
+    "specification": [
+      "15W fast charging",
+      "MagSafe technology",
+      "Sleek design",
+      "LED indicator"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 15,
+    "product_title": "RAVPower PD Pioneer",
+    "product_image": "https://example.com/images/ravpower-pd-pioneer.jpg",
+    "category": "Chargers",
+    "price": 59,
+    "description": "High-speed charger with dual USB-C ports and 65W power delivery.",
+    "specification": [
+      "65W power delivery",
+      "Dual USB-C ports",
+      "Compact design",
+      "Overheat protection"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 16,
+    "product_title": "UGREEN Nexode 100W",
+    "product_image": "https://example.com/images/ugreen-nexode-100w.jpg",
+    "category": "Chargers",
+    "price": 99,
+    "description": "Powerful multi-port charger for Laptops, Phones, and tablets.",
+    "specification": [
+      "100W power delivery",
+      "4 ports (3 USB-C, 1 USB-A)",
+      "GaN technology",
+      "Compact size"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+
+  {
+    "product_id": 17,
+    "product_title": "Anker PowerCore 20100",
+    "product_image": "https://example.com/images/anker-powercore-20100.jpg",
+    "category": "Power Banks",
+    "price": 51,
+    "description": "High-capacity power bank with dual USB ports.",
+    "specification": [
+      "20100mAh capacity",
+      "Fast charging",
+      "Dual USB ports",
+      "Compact design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 18,
+    "product_title": "Xiaomi Mi Power Bank 3",
+    "product_image": "https://example.com/images/mi-power-bank-3.jpg",
+    "category": "Power Banks",
+    "price": 51,
+    "description": "Affordable power bank with USB-C and fast charging support.",
+    "specification": [
+      "20000mAh capacity",
+      "USB-C input/output",
+      "Fast charging",
+      "Slim design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 19,
+    "product_title": "RAVPower Portable Charger",
+    "product_image": "https://example.com/images/ravpower-portable-charger.jpg",
+    "category": "Power Banks",
+    "price": 59,
+    "description": "Compact power bank with fast charging and high capacity.",
+    "specification": [
+      "15000mAh capacity",
+      "Fast charging",
+      "Dual USB ports",
+      "Lightweight design"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 20,
+    "product_title": "Zendure SuperTank",
+    "product_image": "https://example.com/images/zendure-supertank.jpg",
+    "category": "Power Banks",
+    "price": 99,
+    "description": "High-capacity power bank with 100W power delivery.",
+    "specification": [
+      "26800mAh capacity",
+      "100W power delivery",
+      "Multiple USB-C ports",
+      "Durable design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
+]     
