@@ -8,11 +8,13 @@ import Products from "../components/Products";
 import ProductDetails from "../pages/ProductDetails";
 import Cart from "../components/Cart";
 import WishlList from "../components/WishlList";
+import ErrorPage from "../pages/ErrorPage";
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout/>,
+      errorElement: <ErrorPage/>,
       children: [
         {
             path: '/',
