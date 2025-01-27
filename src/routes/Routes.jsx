@@ -6,6 +6,8 @@ import Dashboard from "../pages/Dashboard";
 import Join from "../pages/Join";
 import Products from "../components/Products";
 import ProductDetails from "../pages/ProductDetails";
+import Cart from "../components/Cart";
+import WishlList from "../components/WishlList";
 
 const router = createBrowserRouter([
     {
@@ -30,7 +32,21 @@ const router = createBrowserRouter([
         },
         {
             path: '/dashboard',
-            element: <Dashboard/>
+            element: <Dashboard/>,
+            children: [
+              {
+                path: '/dashboard/cart',
+                element: <Cart/>,
+              },
+              {
+                path: '/dashboard',
+                element: <Cart/>,
+              },
+              {
+                path: '/dashboard/wishlist',
+                element: <WishlList/>
+              }
+            ]
         },
         {
             path: '/join',

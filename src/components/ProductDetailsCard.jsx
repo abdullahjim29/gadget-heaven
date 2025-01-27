@@ -1,6 +1,8 @@
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { saveCartToLs, saveWishListToLs } from "../utilitis";
+import { createContext } from "react";
+const totalCostContext = createContext();
 const ProductDetailsCard = ({ selectedProduct }) => {
   const {
     product_id,
@@ -93,10 +95,10 @@ const ProductDetailsCard = ({ selectedProduct }) => {
             <p className="text-black bg-base-200 px-3 rounded-3xl font-bold">{rating}</p>
           </div>
         </p>
-        <button onClick={() => handleAddToCart(product_title)} className="btn bg-[#9538E2] hover:bg-[#683a8d] rounded-full text-white">
+        <button onClick={() => handleAddToCart(selectedProduct)} className="btn bg-[#9538E2] hover:bg-[#683a8d] rounded-full text-white">
           Add To Card <HiOutlineShoppingCart size={20} />
         </button>
-        <button onClick={() => handleWishList(product_title)} className="bg-white border border-gray-500 p-2 rounded-full ml-2 cursor-pointer">
+        <button onClick={() => handleWishList(selectedProduct)} className="bg-white border border-gray-500 p-2 rounded-full ml-2 cursor-pointer">
           <AiOutlineHeart size={25} />
         </button>
       </div>

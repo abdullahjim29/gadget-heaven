@@ -12,7 +12,9 @@ const getStoredCart = () => {
 
 const saveCartToLs = product => {
     const storedCart = getStoredCart();
-    if(storedCart.includes(product)){
+    
+    const isExist = storedCart.find(p => p.product_id === product.product_id);
+    if(isExist){
         toast.error('This Product is Already Added To The Cart.');
     }
     else{
@@ -38,7 +40,8 @@ const getStoredWishList = () => {
 
 const saveWishListToLs = product => {
     const storedWishList = getStoredWishList();
-    if(storedWishList.includes(product)){
+    const isExist = storedWishList.find(p => p.product_id === product.product_id);
+    if(isExist){
         toast.error('This Product is Already Added To The Wishlist.');
     }
     else{
@@ -48,4 +51,4 @@ const saveWishListToLs = product => {
         toast.success('The Product is Successfully Added To The Wishlist.')
     }
 }
-export {saveCartToLs, saveWishListToLs}
+export {saveCartToLs, saveWishListToLs, getStoredCart, getStoredWishList}
