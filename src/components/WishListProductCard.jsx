@@ -1,7 +1,6 @@
 import { TbXboxX } from "react-icons/tb";
-const CartProductCard = ({product, handleRemove}) => {
+const WishListProductCard = ({product, handleRemove}) => {
     const {product_image, product_title, description, price, product_id} = product;
-
     return (
         <div className="bg-base-100 p-5 flex flex-col md:flex-row rounded-2xl gap-10">
             <div className="bg-gray-200 p-5 rounded-2xl w-full md:w-[300px] h-auto lg:h-[300px] flex justify-center items-center">
@@ -17,4 +16,4 @@ const CartProductCard = ({product, handleRemove}) => {
     );
 };
 
-export default CartProductCard;
+export default WishListProductCard;
