@@ -21,13 +21,16 @@ const WishlList = () => {
       </div>
 
       <div className="w-9/12 mx-auto space-y-10">
-        {wishListProducts.map((product) => (
-          <WishListProductCard
-            key={product.product_id}
-            product={product}
-            handleRemove={handleRemove}
-          ></WishListProductCard>
-        ))}
+        {
+          wishListProducts.length === 0 ? <div className="text-center"><h2 className="text-2xl md:text-4xl">No Products In The WishList</h2></div>
+          : wishListProducts.map((product) => (
+            <WishListProductCard
+              key={product.product_id}
+              product={product}
+              handleRemove={handleRemove}
+            ></WishListProductCard>
+          ))
+        }
       </div>
     </div>
   );

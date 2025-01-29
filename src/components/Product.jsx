@@ -11,9 +11,9 @@ const Product = ({ product }) => {
         <h2 className="card-title">{product_title}</h2>
         <p className="text-gray-600 text-xl">Price: {price}</p>
         <div className="card-actions">
-          <Link to={`/products/${product_id}`}>
+          <Link to={`/product-details/${product_id}`}>
             <button className="btn border border-[#9538E2] rounded-full bg-white text-[#9538E2] font-semibold hover:bg-[#9538E2] hover:text-white px-5 mt-3">
-              Buy Now
+              View Details
             </button>
           </Link>
         </div>

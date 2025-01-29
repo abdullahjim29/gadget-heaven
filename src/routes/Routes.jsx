@@ -9,6 +9,7 @@ import ProductDetails from "../pages/ProductDetails";
 import Cart from "../components/Cart";
 import WishlList from "../components/WishlList";
 import ErrorPage from "../pages/ErrorPage";
+import AllProducts from "../components/AllProducts";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,16 @@ const router = createBrowserRouter([
                 path: '/categories/:category',
                 loader: () => fetch('../products.json'),
                 element: <Products/>
+              },
+              {
+                path: '/allproducts',
+                loader: () => fetch('../products.json'),
+                element: <AllProducts/>
+              },
+              {
+                path: '/',
+                loader: () => fetch('../products.json'),
+                element: <AllProducts/>
               }
             ],
         },
@@ -55,7 +66,7 @@ const router = createBrowserRouter([
             element: <Join/>
         },
         {
-          path: '/products/:productId',
+          path: '/product-details/:productId',
           element: <ProductDetails/>,
           loader: () => fetch('../products.json')
         }

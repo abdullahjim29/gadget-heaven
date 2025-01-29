@@ -30,7 +30,7 @@ const {pathname} = useLocation();
             >
               <NavLink className={({isActive}) => isActive && pathname == '/'? 'text-[#9538E2] font-bold' : 'font-semibold'} to='/'><li>Home</li></NavLink>
               <NavLink className={({isActive}) => isActive && pathname == '/statistics'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/statistics'><li>Statistics</li></NavLink>
-              <NavLink className={({isActive}) => isActive && pathname == '/dashboard'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/dashboard'><li>Dashboard</li></NavLink>
+              <NavLink className={({isActive}) => (isActive && pathname == '/dashboard') || pathname == '/dashboard/cart' || pathname == '/dashboard/wishlist'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/dashboard'><li>Dashboard</li></NavLink>
               <NavLink className={({isActive}) => isActive && pathname == '/join'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/join'><li>Join</li></NavLink>
             </ul>
           </div>

@@ -1,26 +1,21 @@
 [
   {
     "id": 1,
-    "category": "All Products",
-    "slug": "all-products-01"
-  },
-  {
-    "id": 2,
     "category": "Laptops",
     "slug": "laptops-02"
   },
   {
-    "id": 3,
+    "id": 2,
     "category": "Phones",
     "slug": "phones-03"
   },
   {
-    "id": 4,
+    "id": 3,
     "category": "Smart Watches",
     "slug": "smart-watches-04"
   },
   {
-    "id": 6,
+    "id": 4,
     "category": "Power Banks",
     "slug": "power-banks-06"
   },
