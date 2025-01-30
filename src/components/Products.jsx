@@ -10,7 +10,7 @@ const Products = () => {
   );
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {
         filteredCategory.length === 0 ? <div className="col-span-3">
         <h2 className="text-4xl text-red-600 text-center">NO DATA FOUND FOR THIS CATEGORY </h2>

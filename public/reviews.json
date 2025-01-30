@@ -1,0 +1,115 @@
+[
+    {
+      "productId": 1,
+      "productName": "Dell XPS 13",
+      "date": "2 days ago",
+      "review": "A fantastic ultrabook with a stunning display and powerful performance. Great for professionals and students alike.",
+      "rating": 4.8
+    },
+    {
+      "productId": 2,
+      "productName": "MacBook Air M2",
+      "date": "3 days ago",
+      "review": "Sleek and powerful, the M2 chip delivers excellent speed, and the battery life is outstanding.",
+      "rating": 4.9
+    },
+    {
+      "productId": 3,
+      "productName": "HP Pavilion 15",
+      "date": "5 days ago",
+      "review": "Solid budget laptop for everyday tasks, but the battery life could be better.",
+      "rating": 4.5
+    },
+    {
+      "productId": 4,
+      "productName": "Lenovo ThinkPad X1 Carbon",
+      "date": "1 week ago",
+      "review": "Lightweight and durable with an excellent keyboard. Perfect for business professionals.",
+      "rating": 4.7
+    },
+    {
+      "productId": 5,
+      "productName": "iPhone 14 Pro",
+      "date": "2 days ago",
+      "review": "Incredible camera, super-fast performance, and a beautiful design. Worth every penny.",
+      "rating": 4.9
+    },
+    {
+      "productId": 6,
+      "productName": "Samsung Galaxy S23 Ultra",
+      "date": "1 week ago",
+      "review": "A powerhouse smartphone with a stunning display and next-level camera technology.",
+      "rating": 4.8
+    },
+    {
+      "productId": 7,
+      "productName": "Google Pixel 7",
+      "date": "4 days ago",
+      "review": "Amazing camera quality and a pure Android experience. Smooth and reliable performance.",
+      "rating": 4.7
+    },
+    {
+      "productId": 8,
+      "productName": "OnePlus 11",
+      "date": "6 days ago",
+      "review": "A great balance of performance and design, but lacks wireless charging.",
+      "rating": 4.6
+    },
+    {
+      "productId": 9,
+      "productName": "Apple Watch Series 8",
+      "date": "3 days ago",
+      "review": "The best smartwatch for Apple users with excellent health-tracking features.",
+      "rating": 4.8
+    },
+    {
+      "productId": 10,
+      "productName": "Samsung Galaxy Watch 5",
+      "date": "5 days ago",
+      "review": "Great battery life and solid fitness tracking, but Bixby still needs improvement.",
+      "rating": 4.7
+    },
+    {
+      "productId": 11,
+      "productName": "Fitbit Versa 4",
+      "date": "1 week ago",
+      "review": "Great for fitness tracking, but lacks third-party app support.",
+      "rating": 4.6
+    },
+    {
+      "productId": 12,
+      "productName": "Garmin Fenix 7",
+      "date": "2 days ago",
+      "review": "Perfect for outdoor adventures with excellent GPS and fitness tracking features.",
+      "rating": 4.8
+    },
+    {
+      "productId": 13,
+      "productName": "Apple AirPods Pro (2nd Generation)",
+      "date": "4 days ago",
+      "review": "Fantastic noise cancellation and immersive audio. A must-have for Apple users.",
+      "rating": 4.8
+    },
+    {
+      "productId": 14,
+      "productName": "Bose QuietComfort 45",
+      "date": "1 week ago",
+      "review": "Extremely comfortable and delivers amazing noise cancellation for travel and work.",
+      "rating": 4.7
+    },
+    {
+      "productId": 15,
+      "productName": "Logitech MX Anywhere 3",
+      "date": "3 days ago",
+      "review": "Great compact mouse with precise tracking, but a bit expensive.",
+      "rating": 4.6
+    },
+    {
+      "productId": 16,
+      "productName": "Keychron K8 Wireless Mechanical Keyboard",
+      "date": "2 days ago",
+      "review": "Amazing mechanical keyboard with great battery life and solid build quality.",
+      "rating": 4.5
+    }
+  ]
+  

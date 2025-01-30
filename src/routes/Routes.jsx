@@ -3,13 +3,13 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import Statistics from "../pages/Statistics";
 import Dashboard from "../pages/Dashboard";
-import Join from "../pages/Join";
 import Products from "../components/Products";
 import ProductDetails from "../pages/ProductDetails";
 import Cart from "../components/Cart";
 import WishlList from "../components/WishlList";
 import ErrorPage from "../pages/ErrorPage";
 import AllProducts from "../components/AllProducts";
+import Review from "../pages/Review";
 
 const router = createBrowserRouter([
     {
@@ -62,8 +62,9 @@ const router = createBrowserRouter([
             ]
         },
         {
-            path: '/join',
-            element: <Join/>
+            path: '/review',
+            element: <Review/>,
+            loader: () => fetch('../reviews.json'),
         },
         {
           path: '/product-details/:productId',

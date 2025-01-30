@@ -26,11 +26,12 @@ const Cart = () => {
     setCartProducts(sorted)
   }
 
+  console.log(totalCost);
   return (
     <>
       <div className="flex flex-wrap md:flex-row w-9/12 mx-auto my-8 gap-5 items-center">
         <h3 className="flex-grow text-2xl font-bold">Cart</h3>
-        <div className="text-xl font-bold">Total cost: {totalCost < 0 ? 0 : totalCost}</div>
+        <div className="text-xl font-bold">Total cost: {totalCost}</div>
         <div className="flex items-center gap-2 btn bg-white border-[#9538E2] border rounded-full text-[#9538E2] text-base font-bold hover:bg-[#9538E2] hover:text-white">
           <button onClick={handleSort}>Sort by Price</button> <RiSoundModuleLine />
         </div>

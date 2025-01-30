@@ -31,7 +31,7 @@ const {pathname} = useLocation();
               <NavLink className={({isActive}) => isActive && pathname == '/'? 'text-[#9538E2] font-bold' : 'font-semibold'} to='/'><li>Home</li></NavLink>
               <NavLink className={({isActive}) => isActive && pathname == '/statistics'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/statistics'><li>Statistics</li></NavLink>
               <NavLink className={({isActive}) => (isActive && pathname == '/dashboard') || pathname == '/dashboard/cart' || pathname == '/dashboard/wishlist'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/dashboard'><li>Dashboard</li></NavLink>
-              <NavLink className={({isActive}) => isActive && pathname == '/join'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/join'><li>Join</li></NavLink>
+              <NavLink className={({isActive}) => isActive && pathname == '/review'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/review'><li>Reviews</li></NavLink>
             </ul>
           </div>
           <Link to='/' className="text-xl md:text-2xl font-bold">Gadget Heaven</Link>
@@ -41,7 +41,7 @@ const {pathname} = useLocation();
           <NavLink className={({isActive}) => isActive && pathname == '/'? 'underline font-bold' : 'font-semibold'} to='/'><li>Home</li></NavLink>
               <NavLink className={({isActive}) => isActive && pathname == '/statistics'? 'text-[#9538E2] font-semibold' : 'font-semibold'} to='/statistics'><li>Statistics</li></NavLink>
               <NavLink className={({isActive}) => isActive && pathname == '/dashboard'? 'text-[#9538E2] font-semibold' : 'font-semibold'} to='/dashboard'><li>Dashboard</li></NavLink>
-              <NavLink className={({isActive}) => isActive && pathname == '/join'? 'text-[#9538E2] font-semibold' : 'font-semibold'} to='/join'><li>Join</li></NavLink>
+              <NavLink className={({isActive}) => isActive && pathname == '/review'? 'text-[#9538E2] font-semibold' : 'font-semibold'} to='/review'><li>Reviews</li></NavLink>
           </ul>
         </div>
         <div className="navbar-end gap-3 text-black">
