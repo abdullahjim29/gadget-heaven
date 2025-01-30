@@ -5,6 +5,9 @@ import { useEffect, useState } from "react";
 import AllProducts from "../components/AllProducts";
 
 const Home = () => {
+    useEffect(() => {
+        document.title = 'Gadgets Heaven'
+      })
     const categoriesData = useLoaderData();
     const [allProducts, setAllProducts] = useState([]);
     useEffect(() => {

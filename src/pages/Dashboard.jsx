@@ -1,6 +1,10 @@
 import { Outlet } from "react-router-dom";
 import ReusableTitle from "../components/ReusableTitle";
+import { useEffect } from "react";
 const Dashboard = () => {
+  useEffect(() => {
+    document.title = 'Dashboard'
+  })
   return (
     <div>
       <ReusableTitle

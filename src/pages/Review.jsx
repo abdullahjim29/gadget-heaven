@@ -8,6 +8,9 @@ const Review = () => {
     useEffect(()=> {
         setReviews(reviewsData.slice(0,7))
     }, [reviewsData])
+    useEffect(() => {
+      document.title = 'Reviews'
+    })
   return (
     <>
       <div className="p-10 mt-10">
@@ -30,7 +33,7 @@ const Review = () => {
 
           {/* reviews cards */}
           {
-            reviews.map(review => <div key={review.productId} className="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md border border-[#2fca2d]  text-black ">
+            reviews.map(review => <div key={review.productId} className="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md border border-[#2fca2d] text-black ">
             <div className="flex justify-between p-4">
               <div className="flex space-x-4">
                 <div>
@@ -57,8 +60,8 @@ const Review = () => {
           </div>)
           }
           {
-            reviews.length <= 7 ? <div><button onClick={() => setReviews(reviewsData)} className="btn border-[#9538e2] hover:bg-[#9538e2] hover:text-white">Show All</button>
-            </div> : <div><button onClick={() =>  setReviews(reviewsData.slice(0,7))} className="btn border-[#9538e2] hover:bg-[#9538e2] hover:text-white">Show Less</button></div>
+            reviews.length <= 7 ? <div><button onClick={() => setReviews(reviewsData)} className="btn border-[#2fca2d] hover:bg-[#2fca2d] hover:text-white">Show All</button>
+            </div> : <div><button onClick={() =>  setReviews(reviewsData.slice(0,7))} className="btn border-[#2fca2d] hover:bg-[#2fca2d] hover:text-white">Show Less</button></div>
           }
         </div>
       </div>

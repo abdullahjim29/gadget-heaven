@@ -2,10 +2,10 @@ import { useContext, useEffect, useState } from "react";
 import { getStoredCart, removeFromCart } from "../utilitis";
 import { RiSoundModuleLine } from "react-icons/ri";
 import CartProductCard from "./CartProductCard";
-import { costContext } from "../layout/MainLayout";
+import { costContext} from "../layout/MainLayout";
 
 const Cart = () => {
-  const {totalCost, decriseTotalCost} = useContext(costContext);
+  const {totalCost, setTotalCost} = useContext(costContext)
   const [cartProducts, setCartProducts] = useState([]);
   useEffect(() => {
     const storedCartProducts = getStoredCart();
@@ -16,7 +16,7 @@ const Cart = () => {
     removeFromCart(productId);
     const storedCartProducts = getStoredCart();
     setCartProducts(storedCartProducts);
-    decriseTotalCost(price);
+    setTotalCost(totalCost - price)
   };
 
   
@@ -25,8 +25,6 @@ const Cart = () => {
     const sorted = [...storedCart].sort((a,b) => b.price - a.price);
     setCartProducts(sorted)
   }
-
-  console.log(totalCost);
   return (
     <>
       <div className="flex flex-wrap md:flex-row w-9/12 mx-auto my-8 gap-5 items-center">

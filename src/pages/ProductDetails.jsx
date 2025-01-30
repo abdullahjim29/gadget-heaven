@@ -1,8 +1,12 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import ProductDetailsCard from "../components/ProductDetailsCard";
 import ProductDetailHeading from "../components/ProductDetailHeading";
+import { useEffect } from "react";
 
 const ProductDetails = () => {
+    useEffect(() => {
+        document.title = 'Product Details'
+      })
     const {productId} = useParams();
     const products = useLoaderData();
 

@@ -8,16 +8,9 @@ export const costContext = createContext();
 const MainLayout = () => {
   const [totalCost, setTotalCost] = useState(0);
 
-  const handleTotalCost = (price) => {
-    setTotalCost(totalCost + price);
-  };
-
-  const decriseTotalCost = price => {
-    setTotalCost(totalCost - price)
-  }
   return (
     <div>
-      <costContext.Provider value={{handleTotalCost, totalCost, setTotalCost, decriseTotalCost}}>
+      <costContext.Provider value={{totalCost, setTotalCost}}>
         {/* navbar */}
         <Navbar />
         <Toaster />

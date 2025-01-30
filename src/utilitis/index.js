@@ -15,13 +15,19 @@ const saveCartToLs = product => {
 
     const isExist = storedCart.find(p => p.product_id === product.product_id);
     if (isExist) {
-        toast.error('This Product is Already Added To The Cart.');
+        toast.error('This Product is Already Added To The Cart.', {
+            position: 'top-right',
+            duration: 1000,
+        });
     }
     else {
         storedCart.push(product);
         const storedCartStr = JSON.stringify(storedCart);
         localStorage.setItem('cart', storedCartStr);
-        toast.success('The Product is Successfully Added To The Cart.')
+        toast.success('The Product is Successfully Added To The Cart.', {
+            position: 'top-right',
+            duration: 1000,
+        })
     }
 }
 
@@ -42,13 +48,19 @@ const saveWishListToLs = product => {
     const storedWishList = getStoredWishList();
     const isExist = storedWishList.find(p => p.product_id === product.product_id);
     if (isExist) {
-        toast.error('This Product is Already Added To The Wishlist.');
+        toast.error('This Product is Already Added To The Wishlist.', {
+            position: 'top-right',
+            duration: 1000,
+        });
     }
     else {
         storedWishList.push(product);
         const storedWishListStr = JSON.stringify(storedWishList);
         localStorage.setItem('wishlist', storedWishListStr);
-        toast.success('The Product is Successfully Added To The Wishlist.')
+        toast.success('The Product is Successfully Added To The Wishlist.', {
+            position: 'top-right',
+            duration: 1000,
+        })
     }
 }
 
@@ -59,7 +71,10 @@ const removeFromCart = productId => {
 
     const storedCartStr = JSON.stringify(remainingProduct);
     localStorage.setItem('cart', storedCartStr);
-    toast.success('You Have removed successfully')
+    toast.success('You Have removed successfully', {
+        position: 'top-right',
+        duration: 1000,
+    })
 
 }
 
@@ -69,10 +84,12 @@ const removeFromWishList = productId => {
 
     const storedWishListStr = JSON.stringify(remainingProduct);
     localStorage.setItem('wishlist', storedWishListStr);
-    toast.success('You Have removed successfully')
+    toast.success('You Have removed successfully', {
+        position: 'top-right',
+        duration: 1000,
+    })
 
 }
-
 
 
 export { saveCartToLs, saveWishListToLs, getStoredCart, getStoredWishList, removeFromCart, removeFromWishList }

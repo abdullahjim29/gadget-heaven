@@ -26,7 +26,7 @@ const {pathname} = useLocation();
             </div>
             <ul
               tabIndex={0}
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-4"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-4"
             >
               <NavLink className={({isActive}) => isActive && pathname == '/'? 'text-[#9538E2] font-bold' : 'font-semibold'} to='/'><li>Home</li></NavLink>
               <NavLink className={({isActive}) => isActive && pathname == '/statistics'? 'text-[#9538E2] font-semibold' : 'font-semibold text-black'} to='/statistics'><li>Statistics</li></NavLink>
@@ -45,8 +45,8 @@ const {pathname} = useLocation();
           </ul>
         </div>
         <div className="navbar-end gap-3 text-black">
-          <div className="bg-base-200 p-2 rounded-full border border-gray-400"><HiOutlineShoppingCart size={20}/></div>
-          <div className="bg-base-200 p-2 rounded-full border border-gray-400"><AiOutlineHeart size={20} /></div>
+          <div className="bg-base-200 p-2 rounded-full border border-gray-400"><HiOutlineShoppingCart size={18}/></div>
+          <div className="bg-base-200 p-2 rounded-full border border-gray-400"><AiOutlineHeart size={18} /></div>
         </div>
       </div>
     </div>
